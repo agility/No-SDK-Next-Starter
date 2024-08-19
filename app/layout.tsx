@@ -54,7 +54,6 @@ export default async function RootLayout({
 
             <div className="flex flex-col min-h-screen">
               <SiteHeader {...{ header }} />
-
               <main className={`flex-grow`}>{children}</main>
               <SiteFooter />
             </div>
