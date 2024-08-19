@@ -60,10 +60,6 @@ export default async function RootLayout({
             </div>
           </div>
         </div>
-        <Script
-          async
-          src="https://unpkg.com/@agility/web-studio-sdk@latest/dist/index.js"
-        />
       </body>
     </html>
   )
